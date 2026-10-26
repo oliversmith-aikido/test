@@ -1,0 +1,13 @@
+{
+  "name": "endform-win32-arm64-test",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Test package depending on endform-win32-arm64",
+  "license": "UNLICENSED",
+  "scripts": {
+    "test": "node -e \"console.log(require.resolve('endform-win32-arm64/package.json'))\""
+  },
+  "dependencies": {
+    "endform-win32-arm64": "0.81.3"
+  }
+}
